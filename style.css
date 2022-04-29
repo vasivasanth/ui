@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+}
+
+#navbarNavAltMarkup a {
+    color: black;
+}
+
+#navbarNavAltMarkup a:hover {
+    border-bottom: 2px solid rgb(238, 37, 10);
+}
+
+.text-block {
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+    /* background: rgba(232, 238, 217, 0.623);
+    color: rgb(12, 12, 12); */
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 25%;
+    margin-left: 40%;
+    margin-bottom: 50%;
+    margin-top: -20%;
+    block-size: 190px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text-block {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
